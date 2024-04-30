@@ -8,6 +8,6 @@ function imprimirResultado(resultado) {
 }
 
 // Llamamos a la función sumar con los parámetros 10 y 7, y en lugar de pasar imprimirResultado como callback, pasamos una función anónima.
-sumar(10, 7, function(resultado) {
+sumar(10, 5, function(resultado) {
     console.log("El resultado de la suma modificada es: " + resultado);
 });
